@@ -1,0 +1,27 @@
+
+.Container{
+    display: flexbox;
+    justify-items: center;
+}
+.StopWatch{
+    font-size: 150px;
+}
+#watch{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.buttons{
+    font-size: 150px;
+    cursor: pointer;
+}
+#Start:hover{
+    background-color: rgb(50, 214, 50);
+}
+#Stop:hover{
+    background-color: red;
+}
+#Reset:hover{
+    background-color: cyan;
+}
